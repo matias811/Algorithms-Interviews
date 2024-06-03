@@ -1,3 +1,13 @@
+"""
+FIZZ BUZZ
+It's a challenge where you have to print find numbers that are divisible by 3 and 5
+If the number is divisible by 3 you print FIZZ
+If the number is divisible by 5 your print BUZZ
+If the number is divisible by 3 and 5 you print FIZZ BUZZ
+As an extra addition we put user input and handle exceptions
+"""
+
+
 def get_user_input(prompt):
     while True:
         try:
